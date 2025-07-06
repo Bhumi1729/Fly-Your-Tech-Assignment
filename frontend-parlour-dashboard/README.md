@@ -37,8 +37,8 @@ cp .env.example .env.local
 
 4. Update the `.env.local` file with your configuration:
 ```env
-NEXT_PUBLIC_API_URL=http://localhost:5001/api
-NEXT_PUBLIC_SOCKET_URL=http://localhost:5001
+NEXT_PUBLIC_API_URL=https://fly-your-tech-assignment-1.onrender.com/api
+NEXT_PUBLIC_SOCKET_URL=https://fly-your-tech-assignment-1.onrender.com
 NEXT_PUBLIC_APP_NAME=Parlour Admin Dashboard
 ```
 

@@ -4,7 +4,7 @@ class SocketService {
   private socket: Socket | null = null;
 
   connect() {
-    const socketUrl = process.env.NEXT_PUBLIC_SOCKET_URL || 'http://localhost:5001';
+    const socketUrl = process.env.NEXT_PUBLIC_SOCKET_URL || 'https://fly-your-tech-assignment-1.onrender.com';
     this.socket = io(socketUrl);
 
     this.socket.on('connect', () => {
